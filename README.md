@@ -1,6 +1,6 @@
 # FIFOBuff
-This project contains two FIFO buffer C++ template classes: `FIFOBuff` and `FIFOBuff_TS`.  The `FIFOBuff` 
-class is suitable for single-threaded environments.  The `FIFOBuff_TS` class is a thread-safe wrapper of 
+This project contains two FIFO buffer C++ template classes: `FIFOBuff` and `FIFOBuff_TS` (both in the `fifobuff.hpp` file).  
+The `FIFOBuff` class is suitable for single-threaded environments.  The `FIFOBuff_TS` class is a thread-safe wrapper of 
 `FIFOBuff` for an RTOS enabled, multi-threaded environment.  The interface/methods of `FIFOBuff_TS` are 
 almost identical to `FIFOBuff`.   Some simple unit tests that utilize the "Google Test" C++ test
 framework are also provided in `fifobuff_test.cpp`.
